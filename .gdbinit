@@ -1,5 +1,5 @@
 python
-
+#/Users/leo233/.local/pipx/venvs/pygments/bin/python
 # GDB dashboard - Modular visual interface for GDB in Python.
 #
 # https://github.com/cyrus-and/gdb-dashboard
@@ -58,7 +58,8 @@ list of all the available styles can be obtained with (from GDB itself):
 
     python from pygments.styles import *
     python for style in get_all_styles(): print(style)''',
-                'default': 'monokai'
+                #'default': 'monokai'
+                'default': 'dracula'
             },
             'discard_scrollback': {
                 'doc': '''Discard the scrollback buffer at each redraw.
