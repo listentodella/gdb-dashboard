@@ -2371,6 +2371,13 @@ set print array off
 set print array-indexes on
 set python print-stack full
 
+# config gdb-tui
+#tui new-layout mytui {-horizontal src 1 asm 1 regs 1} 2 status 0 cmd 1
+#tui enable
+#layout mytui
+#winheight cmd +9
+#fs cmd
+
 # Start ------------------------------------------------------------------------
 
 python Dashboard.start()
